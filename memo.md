@@ -12,7 +12,6 @@
 
 
 
-
 # 햄버거 메뉴
 ### - Navigation Component Example
 - https://www.youtube.com/watch?v=DI0NIk-7cz8&t=7s
@@ -27,6 +26,30 @@
 - 안드로이드 스튜디오의 preview상태에서 NavigationDrawer의 open상태를 보여준다
 
 
+
+# EditText
+### - EditText 라인 수 제한
+- https://bbulog.tistory.com/1
+
+### - EditText 글자 수 세기
+- https://lcw126.tistory.com/281
+- https://yuuj.tistory.com/45
+
+### - EditText 글자 수 제한
+- https://typhoon0301.tistory.com/9
+
+### - EditText 유용한 기능들
+- https://woovictory.github.io/2019/07/04/Android-EditTextFunction/
+
+### - EditText 코틀린에서 값 넣기 (String 타입 불가능)
+- https://stackoverflow.com/questions/44493908/setting-text-in-edittext-kotlin
+
+
+
 # 그 외
 ### - view binding vs findViewById
 - https://todaycode.tistory.com/29
+
+### - replace() 된 프래그먼트 뒤로가기 (addToBackStack, popBackStack)
+- https://developer.android.com/guide/fragments/fragmentmanager?hl=ko
+
