@@ -18,3 +18,8 @@ custom dialog는 spinner 형태의 <b>datePicker와 timePicker를 결합</b>하�
 
 ### 일괄삭제 기능 추가
 좌측 상단의 네비게이션의 통해 데이터 관리 탭에 들어가서 데이터 일괄삭제 할 수 있도록 설계
+
+
+## 2023-06-04
+### 다중삭제 기능 추가
+recycleView의 item을 길게 누를경우(<b>LongClick</b>) 체크박스가 활성화되며, 우측 상단의 메뉴가 삭제 아이콘으로 변경된다.
