@@ -3,7 +3,7 @@
 ## 2023-06-14
 #### ● item_record.xml (recyclerView) ui 변경
 
-#### ● recyclerView item longclick시 fab 비활성화
+#### ● recyclerView item longclick시 fab 비활성화, appBar에 선택 개수 표시
 
 #### ● datepicker/timepicker의 날짜를 텍스트로 표시 + ui 변경
 
