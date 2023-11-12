@@ -1,6 +1,6 @@
 # commit 내역
 
-## 2023-06-14
+## 2023-11-13
 #### ● 리소스 네이밍
 &ensp; IDs ㅡ WHAT_WHERE_DESCRIPTION<br>
 &ensp; string.xml ㅡ WHERE_DESCRIPTION
