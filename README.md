@@ -2,7 +2,7 @@
 
 ## 2023-11-28
 #### ● PhotoViewerFragment ㅡ dialog animation, 이미지 다운로드 기능 추가
-#### ● CropPhotoFragment ㅡ 갤러리 인텐트의 결과 Uri를 넘겨서, 이미지 자르기 및 회전 구현, callback을 통해 결과 bitmap을 전달
+#### ● CropPhotoFragment ㅡ 갤러리 인텐트의 결과 Uri를 전달받은 후 이미지 자르기 및 회전 구현, callback을 통해 결과 bitmap을 전달
 &ensp; CropperNoCropper lib : https://github.com/jayrambhia/CropperNoCropper/tree/master
 
 #### ● 변경사항
