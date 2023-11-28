@@ -1,5 +1,15 @@
 # commit 내역
 
+## 2023-11-28
+#### ● PhotoViewerFragment ㅡ dialog animation, 이미지 다운로드 기능 추가
+#### ● CropPhotoFragment ㅡ 갤러리 인텐트의 결과 Uri를 넘겨서, 이미지 자르기 및 회전 구현, callback을 통해 결과 bitmap을 전달
+&ensp; CropperNoCropper lib : https://github.com/jayrambhia/CropperNoCropper/tree/master
+
+#### ● 변경사항
+&ensp; RecordDetailFragment ㅡ UI 수정, 삭제/취소 버튼 분리<br>
+&ensp; BottomSheetDialog ㅡ UI 수정, Margin 추가<br>
+&ensp; back press ㅡ BottomSheetDialog Alert를 띄움<br>
+
 ## 2023-11-13
 #### ● 리소스 네이밍
 &ensp; IDs ㅡ WHAT_WHERE_DESCRIPTION<br>
@@ -10,11 +20,11 @@
 
 #### ● recyclerView item longclick ㅡ fab 비활성화, appBar에 선택 개수 표시
 
-#### ● datepicker/timepicker ㅡ 날짜/시간 텍스트로 변환하여 출력, UI 변경
+#### ● DateTimePickerFragment ㅡ datepicker/timepicker의 날짜와 시간 텍스트로 변환하여 출력, UI 변경
 
-#### ● 모든 dialog ㅡ bottomSheetDialog로 변경
+#### ● 모든 dialog를 bottomSheetDialog로 변경
 
-#### ● photo dialog ㅡ 두 손가락으로 zoom-in 기능
+#### ● PhotoViewerFragment ㅡ 두 손가락으로 zoom-in 기능
 &ensp; implementation 'com.davemorrissey.labs:subsampling-scale-image-view:3.10.0'
 
 ## 2023-06-04
@@ -30,7 +40,7 @@
 
 #### ● 날짜 설정 기능
 &ensp; DateTimePickerFragment ㅡ Record의 날짜정보를 변경할 수 있도록 하는 custom dialog를 생성<br>
-&ensp; spinner 형태의 <b>datePicker와 timePicker를 결합</b> (bottomSheetDialog)
+&ensp; spinner 형태의 datePicker와 timePicker를 결합 (bottomSheetDialog)
 
 #### ● 일괄 삭제 기능
 &ensp; 좌측 상단 Navigation Menu 데이터 관리 ㅡ record 일괄 삭제
